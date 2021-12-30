@@ -1,0 +1,118 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-30T12:51:43.113Z",
+        "line": 5,
+        "name": "To validate the forgot password with invalid mobilenumber",
+        "description": "",
+        "id": "to-validate-the-forgot-password-functionality;to-validate-the-forgot-password-with-invalid-mobilenumber",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 75035662700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should launch the chrome browser and load the facebook url",
+            "match": {
+              "location": "ForgotPasswordStepdefinition.user_should_launch_the_chrome_browser_and_load_the_facebook_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13711427400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should Click the forgot password link",
+            "match": {
+              "location": "ForgotPasswordStepdefinition.userShouldClickTheForgotPasswordLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4029675500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should type the invalid mobile Number for D Map",
+            "match": {
+              "location": "ForgotPasswordStepdefinition.user_should_type_the_invalid_mobile_Number_for_D_Map(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "dhoni",
+                  "7856754671"
+                ]
+              },
+              {
+                "cells": [
+                  "raina",
+                  "8767768733"
+                ]
+              },
+              {
+                "cells": [
+                  "vijay",
+                  "7676738738"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2662897700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should click the search button",
+            "match": {
+              "location": "ForgotPasswordStepdefinition.userShouldClickTheSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37385900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user should navigate to password reset recover page",
+            "match": {
+              "location": "ForgotPasswordStepdefinition.userShouldNavigateToPasswordResetRecoverPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the forgot password functionality",
+    "description": "",
+    "id": "to-validate-the-forgot-password-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featurefiles/ForgotPssword.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
