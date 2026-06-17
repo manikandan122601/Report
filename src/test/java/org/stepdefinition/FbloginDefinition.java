@@ -16,9 +16,9 @@ public class FbloginDefinition extends BaseClass {
 
 @Given("User should launch the chrome browser and load facebook page")
 public void user_should_launch_the_chrome_browser_and_load_facebook_page() {
-		launchChrome();
+		/*launchChrome();
 		loadUrl("https://www.facebook.com");
-		winMax();
+		winMax();*/
 	    
 	}
 
